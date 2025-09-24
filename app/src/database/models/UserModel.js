@@ -1,4 +1,4 @@
-const { BaseModel, EDatabaseTypes } = require('promisedb');
+const { BaseModel, EDatabaseTypes } = require('promiseorm');
 
 class UserModel extends BaseModel {
   constructor() {

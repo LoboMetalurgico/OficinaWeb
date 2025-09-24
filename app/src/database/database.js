@@ -1,4 +1,4 @@
-const { DatabaseManager, MariaDBConnection } = require('promisedb');
+const { DatabaseManager, MariaDBConnection } = require('promiseorm');
 const { UserModel } = require('./models');
 
 class Database {

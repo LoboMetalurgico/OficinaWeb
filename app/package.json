@@ -1,6 +1,6 @@
 {
   "name": "oficina-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Aplicativo base para a oficina de WEB da Unip Paraíso",
   "main": "src/index.js",
   "private": true,
@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/LoboMetalurgico/Oficina-Web#readme",
   "dependencies": {
-    "body-parser": "^1.20.3",
+    "body-parser": "^2.2.0",
     "cookie-parser": "^1.4.7",
-    "express": "^4.21.1",
-    "promisedb": "file:libs/promisedb-1.0.0.tgz"
+    "express": "^5.1.0",
+    "promiseorm": "^1.0.5"
   }
 }
